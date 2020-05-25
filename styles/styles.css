@@ -1,0 +1,247 @@
+img{
+    max-width: 100%;
+}
+
+.custom-navbar .navbar-brand {
+   padding:2px;
+   height: auto;
+}
+
+
+#service{
+    background-color: #f9f9f9;
+}
+/** OWL CAROUSEL */
+.home-slider .owl-item .item {
+    z-index:0;
+    background-position: center;
+    position: relative;
+}
+.home-slider .item-first {
+    background-image: url(../assets/images/hero3.jpg);    
+  }
+  
+.home-slider .item-second {
+    background-image: url(../assets/images/hero4.jpg);
+}
+
+.home-slider .item-third {
+    background-image: url(../assets/images/hero5.jpg);
+}
+
+
+/* SUB PAGE BANNER */
+.banner-section{
+    background: #000;
+    opacity: .6;
+    background-image: url(../assets/images/image_1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height:300px;
+    z-index:0;
+    position: relative;
+}
+
+.banner-section::after, 
+.home-slider .owl-item .item::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    z-index: -1;
+    opacity: .4;
+    background: #0088ff;
+}
+
+.subpage-header-title > h1{
+    color: #fff;
+    line-height: 1.5;
+}
+
+#subpage-accounting.banner-section{
+    background-image: url(../assets/images/image_1.jpg);
+}
+
+#subpage-tax.banner-section{
+    background-image: url(../assets/images/image_2.jpg);
+}
+
+#subpage-contact.banner-section{
+    background-image: url(../assets/images/image_3.jpg);
+}
+
+.sub-page .section-wrapper h2{
+    position: relative;
+}
+
+.sub-page .section-wrapper h2::before{
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    width: 60px;
+    height: 3px;
+    background: #1c9e75;
+}
+
+
+
+/* CONSULT */
+#consult {
+    margin-bottom:-100px;
+}
+
+#consult .consult-wrap{
+    margin-top: -200px;
+    -webkit-box-shadow: 0px -15px 39px -13px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px -15px 39px -13px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px -15px 39px -13px rgba(0, 0, 0, 0.35);
+    z-index: 100;
+    display: flex;
+}
+
+
+.consult-form{
+    background-color: #3f51b5;
+    padding:3rem 3rem;
+}
+
+.consult-form h2{
+    color: #fff;
+}
+.consult-request-form .form-control{
+    border: transparent !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+    height: 58px !important;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 16px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.consult-request-form .section-btn:hover {
+    background: #fff;
+    color: #333;
+    border-color: transparent;
+  }
+
+.consult-desc{
+    background-color: #fff;
+    padding: 3rem 3rem;
+}
+
+
+/*---------------------------------------
+	OFFER             
+-----------------------------------------*/
+
+#service .section-title {
+    text-align: center;
+  }
+  
+  .offer-thumb {
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .offer-top {
+    position: relative;
+  }
+  
+  .offer-top > .offer-image {
+    height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .offer-image.image-first{
+    background-image: url(../assets/images/calculator.jpg);
+  }
+  .offer-image.image-second{
+    background-image: url(../assets/images/graph.jpg);
+  }
+  .offer-image.image-third{
+    background-image: url(../assets/images/planner.jpg);
+  }
+
+  
+  .offer-details {
+    padding: 25px 25px 15px 25px;
+  }
+  
+  .offer-details h3 {
+    margin: 0 0 2px 0;
+  }
+  
+  /*---------------------------------------
+	CALL TO ACTION             
+-----------------------------------------*/
+
+#call-to-action .action-wrapper{
+    background-color: #F9F9F9;
+    padding: 30px 40px 30px 0;
+    border-right: 3px solid #1c9e75;
+    margin-bottom: 35px;
+}
+
+#call-to-action .action-wrapper:hover{    
+    background-color: #1c9e75;
+    color:#fff;
+}
+
+#call-to-action .action-wrapper .fa {
+    background: #1c9e75;
+    border-radius: 100%;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+}
+
+#call-to-action .action-wrapper h3{
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+#call-to-action .action-wrapper h3 a:hover{
+    color:#fff;
+}
+
+
+/* LOCATION */
+.google-map-container{
+    padding-bottom: 20px;
+}
+
+/* FOOTER */
+.section-address span.text{
+    padding-left:1rem;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    #consult .consult-wrap{
+        margin-top: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        z-index: 0;
+    }
+
+    #consult {
+        margin-bottom:0px;
+    }
+}   
