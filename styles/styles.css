@@ -70,7 +70,7 @@ img{
 }
 
 #subpage-contact.banner-section{
-    background-image: url(../assets/images/image_3.jpg);
+    background-image: url(../assets/images/image_4.jpg);
 }
 
 .sub-page .section-wrapper h2{
@@ -86,6 +86,50 @@ img{
     background: #1c9e75;
 }
 
+.sub-page.contact .contact-info p{
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.sub-page.contact .contact-info .address .text{
+    display: inline-block;
+}
+
+.sub-page.contact .contact-info .address .fa{
+    transform: translateY(-33px);
+}
+
+#contact-us-form .form-control {
+    height: 52px !important;
+    background: #fff !important;
+    color: #000000 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1)    
+}
+
+#contact-us-form textarea.form-control {
+    height: inherit !important;
+}
+
+.sub-page.contact #contact-us-form input[type="submit"] {
+    background: #1c9e75;
+    border: 1px solid #1c9e75;
+    color: #000;
+    font-size: inherit;
+    font-weight: normal;
+    padding: 15px 30px;
+    transition: 0.5s;
+    outline: none;
+    display: block;
+  }
+  
+  #contact-us-form input[type="submit"]:hover {
+    background: #1c9e75 !important;
+    border-color: transparent;
+  }
 
 
 /* CONSULT */
